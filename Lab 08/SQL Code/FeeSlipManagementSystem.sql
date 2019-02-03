@@ -1,0 +1,11 @@
+CREATE DATABASE Lab08_FeeSlips;
+USE Lab08_FeeSlips;
+
+CREATE TABLE FeeSlips(
+	id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+	regNumber INT UNIQUE NOT NULL,
+    firstName VARCHAR(20) NOT NULL,
+    lastName VARCHAR(20) NOT NULL,
+    feeMonth VARCHAR(10) NOT NULL,
+    currentDate VARCHAR(10)
+);
