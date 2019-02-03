@@ -17,7 +17,7 @@ Complete the remaining code files. This includes
 The pseudo-code for the insertion sort is
 
 ```java
-public void insertionsort(Object[] items) { 
+public void insertionsort(Object[] items) {
 	int j;
     for (int p = 1; p < items.length; p++) { 
     	Object temp = items[p];
